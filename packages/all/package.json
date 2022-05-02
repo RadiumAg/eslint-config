@@ -21,7 +21,7 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@raag/eslint-config-prettier": "^1.1.0",
+    "@raag/eslint-config-prettier": "^1.1.2",
     "@raag/eslint-config-vue": "^1.1.0"
   },
   "devDependencies": {

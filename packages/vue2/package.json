@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@raag/eslint-config-ts": "^1.1.0",
+    "@raag/eslint-config-ts": "^1.1.2",
     "eslint-define-config": "^1.4.0",
     "eslint-plugin-vue": "^8.7.1"
   },
