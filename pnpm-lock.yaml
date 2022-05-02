@@ -16,8 +16,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@radium/eslint-config-prettier': ^0.1.0
-      '@radium/eslint-config-vue': ^0.1.0
+      '@radium/eslint-config-prettier': ^1.1.0
+      '@radium/eslint-config-vue': ^1.1.0
       eslint: ^8.14.0
     dependencies:
       '@radium/eslint-config-prettier': link:../prettier
@@ -67,8 +67,8 @@ importers:
 
   packages/react:
     specifiers:
-      '@radium/eslint-config-prettier': ^0.1.0
-      '@radium/eslint-config-vue': ^0.1.0
+      '@radium/eslint-config-prettier': ^1.1.0
+      '@radium/eslint-config-vue': ^1.1.0
       eslint: ^8.14.0
     dependencies:
       '@radium/eslint-config-prettier': link:../prettier
@@ -78,7 +78,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@radium/eslint-config-basic': ^0.1.0
+      '@radium/eslint-config-basic': ^1.1.0
       '@typescript-eslint/eslint-plugin': ^5.21.0
       '@typescript-eslint/parser': ^5.21.0
       eslint: 8.14.0
@@ -93,7 +93,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@radium/eslint-config-ts': ^0.1.0
+      '@radium/eslint-config-ts': ^1.1.0
       eslint: 8.14.0
       eslint-define-config: ^1.4.0
       eslint-plugin-vue: ^8.7.1
@@ -106,7 +106,7 @@ importers:
 
   packages/vue2:
     specifiers:
-      '@radium/eslint-config-ts': ^0.1.0
+      '@radium/eslint-config-ts': ^1.1.0
       eslint: 8.14.0
       eslint-define-config: ^1.4.0
       eslint-plugin-vue: ^8.7.1
@@ -447,7 +447,7 @@ packages:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
     dependencies:
       balanced-match: 1.0.2
-      concat-map: 0.1.0
+      concat-map: 1.1.0
 
   /braces/3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
@@ -564,7 +564,7 @@ packages:
       dot-prop: 5.3.0
     dev: true
 
-  /concat-map/0.1.0:
+  /concat-map/1.1.0:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
   /concat-stream/2.0.0:
@@ -2055,7 +2055,7 @@ packages:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
     dependencies:
-      yocto-queue: 0.1.0
+      yocto-queue: 1.1.0
     dev: true
 
   /p-locate/2.0.0:
@@ -2768,7 +2768,7 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /yocto-queue/0.1.0:
+  /yocto-queue/1.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
