@@ -1,10 +1,10 @@
 {
-  "name": "@sxzz/eslint-config-ts",
-  "version": "2.1.1",
+  "name": "@radium/eslint-config-ts",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "author": "https://github.com/RadiumAg",
   "files": [
     "index.js"
   ],
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@sxzz/eslint-config-basic": "^2.1.1",
+    "@radium/eslint-config-basic": "^2.1.1",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint-define-config": "^1.4.0"
