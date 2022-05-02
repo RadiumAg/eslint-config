@@ -37,9 +37,19 @@ module.exports = defineConfig({
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@sxzz/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@radium/eslint-config-ts'],
   rules: {
-    'vue/max-attributes-per-line': 'off',
+    'vue/max-attributes-per-line': [
+      'off',
+      {
+        singleline: 3,
+        multiline: {
+          max: 1,
+          allowFirstLine: false,
+        },
+      },
+    ],
+    'vue/eqeqeq': 'error',
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/html-self-closing': [
@@ -47,14 +57,11 @@ module.exports = defineConfig({
       {
         html: {
           void: 'always',
-          normal: 'always',
-          component: 'always',
+          normal: 'never',
+          component: 'never',
         },
-        svg: 'always',
-        math: 'always',
       },
     ],
-
     // Reactivity Transform
     'vue/no-setup-props-destructure': 'off',
   },

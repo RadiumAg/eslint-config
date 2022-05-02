@@ -4,6 +4,14 @@ module.exports = defineConfig({
   extends: ['plugin:yml/prettier', 'prettier'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'warn',
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        endOfLine: 'auto',
+        trailingComma: 'all',
+        arrowParens: 'avoid',
+      },
+    ],
   },
 });

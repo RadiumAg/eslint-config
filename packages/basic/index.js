@@ -130,6 +130,7 @@ module.exports = defineConfig({
   rules: {
     // import
     'import/first': 'error',
+    semi: ['error', 'always'],
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',

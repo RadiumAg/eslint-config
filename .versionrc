@@ -5,6 +5,10 @@
       "type": "json"
     },
     {
+      "filename": "packages/react/package.json",
+      "type": "json"
+    },
+    {
       "filename": "packages/basic/package.json",
       "type": "json"
     },
