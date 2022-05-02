@@ -5,7 +5,8 @@
   "author": "https://github.com/RadiumAg",
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
-    "release": "standard-version"
+    "release": "standard-version",
+    "delete-node_modules": "rimraf node_modules"
   },
   "devDependencies": {
     "@raag/eslint-config": "workspace:*",

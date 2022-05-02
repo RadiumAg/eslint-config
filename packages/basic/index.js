@@ -13,6 +13,7 @@ module.exports = defineConfig({
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
+    '@raag/eslint-config-prettier'
   ],
   ignorePatterns: [
     '*.min.*',

@@ -447,7 +447,7 @@ packages:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
     dependencies:
       balanced-match: 1.0.2
-      concat-map: 1.1.0
+      concat-map: 0.0.1
 
   /braces/3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
@@ -564,7 +564,7 @@ packages:
       dot-prop: 5.3.0
     dev: true
 
-  /concat-map/1.1.0:
+  /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
   /concat-stream/2.0.0:
@@ -2055,7 +2055,7 @@ packages:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
     dependencies:
-      yocto-queue: 1.1.0
+      yocto-queue: 0.1.0
     dev: true
 
   /p-locate/2.0.0:
@@ -2768,7 +2768,7 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /yocto-queue/1.1.0:
+  /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
