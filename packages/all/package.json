@@ -1,5 +1,5 @@
 {
-  "name": "@radium/eslint-config",
+  "name": "@raag/eslint-config",
   "version": "1.1.0",
   "description": "Radium's ESLint config",
   "keywords": [
@@ -21,8 +21,8 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@radium/eslint-config-prettier": "^1.1.0",
-    "@radium/eslint-config-vue": "^1.1.0"
+    "@raag/eslint-config-prettier": "^1.1.0",
+    "@raag/eslint-config-vue": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^8.14.0"

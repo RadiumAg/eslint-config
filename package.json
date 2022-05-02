@@ -1,5 +1,5 @@
 {
-  "name": "@radium/eslint-config-monorepo",
+  "name": "@raag/eslint-config-monorepo",
   "private": true,
   "license": "MIT",
   "author": "https://github.com/RadiumAg",
@@ -8,7 +8,7 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "@radium/eslint-config": "workspace:*",
+    "@raag/eslint-config": "workspace:*",
     "eslint": "^8.14.0",
     "standard-version": "^9.3.2",
     "typescript": "^4.6.4"

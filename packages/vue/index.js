@@ -37,7 +37,7 @@ module.exports = defineConfig({
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@radium/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@raag/eslint-config-ts'],
   rules: {
     'vue/max-attributes-per-line': [
       'off',

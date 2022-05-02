@@ -1,9 +1,9 @@
 const { defineConfig } = require('eslint-define-config');
-const basic = require('@radium/eslint-config-basic');
+const basic = require('@raag/eslint-config-basic');
 
 module.exports = defineConfig({
   extends: [
-    '@radium/eslint-config-basic',
+    '@raag/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: [

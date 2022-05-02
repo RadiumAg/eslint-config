@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['', '@radium/eslint-config-prettier'],
+  extends: ['', '@raag/eslint-config-prettier'],
 };
