@@ -9,7 +9,6 @@
     "delete-node_modules": "rimraf node_modules"
   },
   "devDependencies": {
-    "@raag/eslint-config": "workspace:*",
     "eslint": "^8.14.0",
     "standard-version": "^9.3.2",
     "typescript": "^4.6.4"

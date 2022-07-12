@@ -20,8 +20,9 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@raag/eslint-config-prettier": "workspace:*",
-    "@raag/eslint-config-vue": "workspace:*"
+    "@raag/eslint-config-ts": "workspace:*",
+    "@raag/eslint-config-import-order": "workspace:*",
+    "eslint-config-react-app": "^7.0.1"
   },
   "devDependencies": {
     "eslint": "^8.14.0"

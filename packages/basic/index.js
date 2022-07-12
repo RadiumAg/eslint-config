@@ -8,7 +8,6 @@ module.exports = defineConfig({
   },
   extends: [
     'eslint:recommended',
-    'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
@@ -129,34 +128,6 @@ module.exports = defineConfig({
     },
   ],
   rules: {
-    // import
-    'import/first': 'error',
-    semi: ['error', 'always'],
-    'import/no-mutable-exports': 'error',
-    'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off',
-    'import/no-duplicates': 'error',
-    'import/no-named-as-default': 'off',
-    'import/no-named-as-default-member': 'off',
-    'import/named': 'off',
-    'import/order': [
-      'error',
-      {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-          'object',
-          'type',
-        ],
-        pathGroups: [{ pattern: '@/**', group: 'internal' }],
-        pathGroupsExcludedImportTypes: ['type'],
-      },
-    ],
-
     // Common
     'no-unused-vars': 'warn',
     'no-constant-condition': 'warn',
