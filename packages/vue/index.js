@@ -62,6 +62,7 @@ module.exports = defineConfig({
         },
       },
     ],
+    "vue/require-default-prop":"off",
     // Reactivity Transform
     'vue/no-setup-props-destructure': 'off',
   },
